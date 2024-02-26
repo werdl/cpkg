@@ -1,0 +1,13 @@
+
+# [cpkg.<name>]
+# url = "https://..."
+# version = "0.1.0"
+# depends_on = ["<name>"]
+# build_commands = ["make"]
+            
+
+[cpkg.libntp]
+url = "https://github.com/werdl/libntp"
+version = "0.1.0"
+depends_on = []
+build_commands = ["python3 -m ensure-pip", "python3 -m pip install libntp"]
